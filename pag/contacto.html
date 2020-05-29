@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+</head>
+<body>
+    <header class="sitio-principal2">
+        <div class="contenedor cont-inferior">
+            <div class="cont-superior">
+                <!--Logo-->
+                <a href="/">
+                    <img src="../img/logo.svg" alt="Logotipo de la Empresa">
+                </a>
+                <!--Links-->
+                <nav class="navegar">
+                    <a target="_blank" href="../pag/nosotros.html">Nosotros</a>
+                    <a href="../pag/anuncios.html">Anuncios</a>
+                    <a href="#">Blog</a>
+                    <a href="../pag/contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>        
+    </header>
+    
+    <main class="contenedor centrar-form">
+        <h2>Contacto</h2>
+    </main>
+        <img src="../img/destacada3.jpg" alt="destacada">
+        <h2>Rellene el formulario</h2>
+    <form action="">
+  
+        <fieldset>
+            <legend>Información Personal</legend>
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="nom" id="nom" maxlength="30" placeholder="Escribe tu nombre" required>
+            <label for="Correo">Correo</label>
+            <input type="email" name="correo" id="correo" placeholder="Escribe tu correo">
+            <label for="tel">Telefono</label>
+            <input type="tel" name="tel" id="tel" placeholder="Escribe tu telefono">
+            <!--<label for="Pass">Contraseña</label>
+            <input type="password" name="" id="">-->
+            <label for="Comentarios">Comentarios</label>
+            <textarea name="com" id="com" cols="30" rows="10" placeholder="Escribe tu comentario"></textarea>
+        </fieldset>
+        
+        
+        
+        
+        <fieldset>
+            <legend>Información sobre la propiedad</legend>
+            <label for="opciones">Venta o renta</label>
+            <select name="opcion" id="opcion">
+                <option value="" disabled>Seleccione una Opcion</option>
+                <option value="Comprar">Comprar</option>
+                <option value="Rentar">Renta</option>
+                
+                <label for="con">Cantidad</label>
+                <input type="number" name="num" min="0" max="100" step="5">
+            </select>
+        </fieldset>
+        
+        
+        <fieldset>
+            <legend>Contacto</legend>
+            <p>Como desea ser contactado</p>
+            <div class="formas">
+            <label for="telefono">Telefono</label>
+            <input type="radio" name="contacto" value="Telefono">
+            
+            <label for="Correo">Correo Electrónico</label>
+            <input type="radio" name="contacto" value="Correo">
+            </div>
+            
+            <p>Si eligió Telefono, elija la fecha y hora</p>
+            <label for="fecha">Fecha</label>
+            <input type="date" name="fecha">
+            
+            <label for="Hora">Hora</label>
+            <input type="time" name="hora" min="9:00" max="21:00">
+        </fieldset>
+        <input type="submit" value="Enviar" class="boton-e boton-enviar">
+        <!--<input type="submit" value="Enviar"> -->
+        <input type="reset" value="Limpiar">
+    </form>
+    
+    
+    <footer>
+    
+    
+    </footer>
+</body>
+    <body>
+    <header class="sitio-principal3">
+        <div class="contenedor cont-inferior">
+            <div class="cont-superior">
+                    <!--Links-->
+                <nav class="navegar">
+                    <a target="_blank" href="../pag/nosotros.html">Nosotros</a>
+                    <a href="../pag/anuncios.html">Anuncios</a>
+                    <a href="#">Blog</a>
+                    <a href="../pag/contacto.html">Contacto</a>
+                </nav>
+               
+      <p> Todos los derechos reservados&copy; 2020</p>
+    
+            </div>
+            </div>
+        </header>
+    </body>
+</html>
